@@ -14,3 +14,5 @@ services:
        fromDatabase:
          name: vite_rails_demo
          property: connectionString
+     - key: RAILS_MASTER_KEY
+       sync: false
